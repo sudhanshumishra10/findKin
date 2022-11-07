@@ -1,0 +1,73 @@
+.container .right-cont {
+    /* width: 100%; */
+    flex: 1 1 auto;
+    padding: 20px;
+    height: 100%;
+}
+
+.container .right-cont .nav {
+    padding-bottom: 12px;
+    font-size: 20px;
+}
+
+.container .right-cont .mainSection {
+    padding-top: 40px;
+}
+
+.container .cards {
+    background: #ffffff;
+    box-shadow: 2px 10px 20px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    padding: 20px 20px;
+    margin: 0px 10px 10px 0px;
+    border-radius: 7px;
+}
+
+.container .row:nth-child(1) {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.container .row:nth-child(1) .row-items,
+.container .row:nth-child(2) .row-items {
+    margin: auto;
+}
+
+.container .row:nth-child(1) .cards {
+    width: 250px;
+    display: flex;
+}
+
+.container .row:nth-child(1) .cards .details {
+    text-align: right;
+}
+
+.container .row:nth-child(1) .cards .details p:nth-child(1) {
+    color: rgb(119, 119, 119);
+}
+
+.container .row:nth-child(1) .cards .details p:nth-child(2) {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.container .row:nth-child(2) {
+    display: flex;
+}
+
+.container .row:nth-child(2) .cards {
+    height: 400px;
+}
+
+.container .right-cont .icon {
+    width: 20%;
+}
+
+.container .card-item {
+    margin: auto;
+}
+
+.active {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
